@@ -18,6 +18,7 @@ export default function TodoList({filter}) {
         setTodos(todos.filter((todo) => todo.id !== deleted.id));
     }
     const filtered = getFilteredItems(todos, filter);
+    console.log({filter});
     return (
         <section>
             <ul>
