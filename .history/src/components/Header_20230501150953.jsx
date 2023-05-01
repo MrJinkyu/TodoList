@@ -8,7 +8,7 @@ export default function Header({filters, filter, onFilterChange}) {
 
     return (
         <header className={styles.header}>
-            <button onClick={toggleDarkMode}>
+            <button>
                 {!darkMode && <HiMoon></HiMoon>}
                 {darkMode && <HiSun></HiSun>}
             </button>
