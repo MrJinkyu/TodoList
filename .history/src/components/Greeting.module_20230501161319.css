@@ -1,0 +1,9 @@
+.greeting{
+    display: flex;
+}
+
+.text{
+    width: 100%;
+    background-color: transparent;
+    color: var(--color-white);
+}

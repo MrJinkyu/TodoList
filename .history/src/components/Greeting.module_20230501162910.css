@@ -1,0 +1,28 @@
+.greeting{
+    width: 34rem;
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.text{
+    margin-left: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-white);
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    flex: 1 1 auto;
+    opacity: 0;
+}
+
+.text::placeholder{
+    font-size: 2rem;
+    color: white;
+    opacity: 0.5;
+}

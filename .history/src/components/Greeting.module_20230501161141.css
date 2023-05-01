@@ -1,0 +1,9 @@
+.greeting{
+    color: var(--color-white);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.name{
+    width: 100%;
+}

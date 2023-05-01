@@ -4,7 +4,7 @@
   --color-bg: #fdfffd;
   --color-grey: #d1d1d1;
   --color-text: #22243b;
-  --color-accent:#1d31e0;
+  --color-accent: #f16e03;
   --color-white: white;
   --color-scrollbar: #aaa7a7;
 }
@@ -14,7 +14,6 @@ html.dark{
   --color-bg: #22243b;
   --color-grey: #4e4e4e;
   --color-text: #fdfffd;
-  --color-accent: #f16e03;
 }
 
 *{
