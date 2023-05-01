@@ -1,0 +1,36 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 1rem;
+}
+
+.checkbox{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.text{
+    flex: 1 1 0%;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--color-text);
+}
+
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--color-grey);
+    text-align: center;
+    transition: all 150ms ease-out;
+}
+
+.icon:hover{
+    transform: rotate(15deg) scale(1.2);
+    background-color: var(--color-accent);
+}
+
+.button{
+    color: var(--color-text);
+}

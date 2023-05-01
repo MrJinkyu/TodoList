@@ -1,0 +1,26 @@
+.form{
+    width: 100%;
+    display: flex;
+    padding: 1rem 1.5rem;
+    background-color: var(--color-bg-dark);
+}
+
+.input{
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    flex: 1 0 auto;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.button{
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}

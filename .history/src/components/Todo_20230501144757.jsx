@@ -19,7 +19,7 @@ export default function Todo({todo, onUpdate, onDelete}) {
                 onChange={handleChange}
             />
             <label className={styles.text} htmlFor={id}>{text}</label>
-            <span className={styles.icon}>
+            <span>
                 <button className={styles.button} onClick={() => onDelete(todo)}>
                     <FaTrashAlt/>
                 </button>
