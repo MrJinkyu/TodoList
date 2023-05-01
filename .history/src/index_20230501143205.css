@@ -40,7 +40,6 @@ body {
   align-items: center;
   background-color: var(--color-body);
   font-size: 1.2rem;
-  accent-color: var(--color-accent);
 }
 
 code {
