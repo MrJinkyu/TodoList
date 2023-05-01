@@ -1,0 +1,19 @@
+.header{
+    background-color: var(--color-bg-dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.filters{
+    display: flex;
+}
+
+.filter{
+    margin: 0.3rem;
+    font-size: 1.4rem;
+    color: var(--color-accent);
+    font-weight: bold;
+    opacity: 0.8;
+}

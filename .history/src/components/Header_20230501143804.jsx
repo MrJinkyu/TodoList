@@ -9,7 +9,7 @@ export default function Header({filters, filter, onFilterChange}) {
                     <li key={index}>
                         <button
                             onClick={() => onFilterChange(value)}
-                            className={`${styles.filter} ${filter === value && styles.selected}`}
+                            className={styles.filter}
                         >
                             {value}
                         </button>
